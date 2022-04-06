@@ -104,6 +104,7 @@ nav .current {
 }
 .benefits-section h3 {
   font-weight: 700;
+  font-size: 14px;
   line-height: 1.14;
   text-transform: uppercase;
   color: var(--main-text-color);
@@ -172,12 +173,19 @@ footer a {
 /* Портфолио */
 .portfolio-button {
   cursor: pointer;
+  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
-  line-height: 1.62;
+  line-height: 1.63;
   text-align: center;
+  letter-spacing: 0.03em;
   color: var(--main-text-color);
   background-color: var(--light-grey-bg);
+}
+.portfolio-button:hover,
+.portfolio-button:focus {
+  color: var(--white-text-color);
+  background-color: var(--accent-color);
 }
 .portfolio-section h2 {
   font-weight: 700;
